@@ -27,7 +27,9 @@ const LINKS = [
     heading: "Community",
     items: [
       { label: "Rankings", href: "/rankings" },
+      { label: "Hall of Fame", href: "/hall-of-fame" },
       { label: "Compare", href: "/compare" },
+      { label: "Open Metrics", href: "/open" },
       { label: "Partners", href: "/partners" },
       { label: "Careers", href: "/careers" },
       { label: "Status", href: "/status" },
