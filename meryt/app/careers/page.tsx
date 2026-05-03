@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Careers at MERYT",
+  title: "Careers — MERYT",
   description: "Join the team building the world's first verified global talent ranking platform.",
 };
 
