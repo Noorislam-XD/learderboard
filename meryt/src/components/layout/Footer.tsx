@@ -22,6 +22,14 @@ const LINKS = [
     ],
   },
   {
+    heading: "Community",
+    items: [
+      { label: "Partners", href: "/partners" },
+      { label: "Careers", href: "/careers" },
+      { label: "Status", href: "/status" },
+    ],
+  },
+  {
     heading: "Support",
     items: [
       { label: "FAQ", href: "/faq" },
