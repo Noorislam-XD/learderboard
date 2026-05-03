@@ -1,4 +1,10 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "API Docs",
+  description: "MERYT API v1 — query leaderboard rankings, NI Scores, and verified profiles programmatically.",
+};
 
 const ENDPOINTS = [
   {
