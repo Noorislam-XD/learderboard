@@ -33,6 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/press`, lastModified: now, changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/privacy`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/terms`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${base}/tags`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     ...(["iit-bombay","mit","oxford","eth-zurich","caltech","cambridge","tsinghua","tokyo"].map(s => ({
       url: `${base}/university/${s}`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.7,
     }))),
