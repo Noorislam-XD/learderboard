@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy",
+  title: "Privacy Policy — MERYT",
   description: "How MERYT collects, stores, and uses your data. Your privacy is foundational to our platform.",
 };
 
