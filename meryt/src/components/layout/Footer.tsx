@@ -8,6 +8,7 @@ const LINKS = [
       { label: "Rankings", href: "/rankings" },
       { label: "Trending", href: "/trending" },
       { label: "Discover", href: "/discover" },
+      { label: "Browse Tags", href: "/tags" },
       { label: "Search", href: "/search" },
       { label: "Hall of Fame", href: "/hall-of-fame" },
       { label: "Verify", href: "/verify" },
