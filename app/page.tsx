@@ -11,6 +11,7 @@ import { LeaderboardRow } from "@/src/components/leaderboard/LeaderboardRow";
 import { ProfileModal } from "@/src/components/profile/ProfileModal";
 import { LEADERBOARD_DATA } from "@/src/lib/data";
 import { Contestant, Category } from "@/src/types";
+import { Footer } from "@/src/components/layout/Footer";
 
 export default function Home() {
   const [selectedContestant, setSelectedContestant] = useState<Contestant | null>(null);
@@ -196,20 +197,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ─── FOOTER ─── */}
-        <footer style={{ marginTop: 56, textAlign: "center", borderTop: "1.5px solid var(--border)", paddingTop: 36 }}>
-          <div style={{ fontFamily: "'Syne', sans-serif", fontSize: 22, fontWeight: 800, letterSpacing: "-0.5px", marginBottom: 14, color: "var(--text)" }}>
-            MERY<span style={{ color: "var(--accent)" }}>T</span>
-          </div>
-          <div style={{ display: "flex", gap: 20, justifyContent: "center", flexWrap: "wrap", marginBottom: 16 }}>
-            {[["Leaderboard", "/"], ["Search", "/search"], ["Verify", "/verify"], ["Pricing", "/pricing"], ["Dashboard", "/dashboard"], ["About", "/about"]].map(([l, h]) => (
-              <Link key={l} href={h} style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "var(--muted)", textDecoration: "none" }}>{l}</Link>
-            ))}
-          </div>
-          <p style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, color: "var(--muted)", opacity: 0.5 }}>
-            © 2025 MERYT · Proof-of-work only · Not social credit scoring · 142 Countries
-          </p>
-        </footer>
+        <Footer />
       </main>
 
       <ProfileModal contestant={selectedContestant} onClose={() => setSelectedContestant(null)} />
