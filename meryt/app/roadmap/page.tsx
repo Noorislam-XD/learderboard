@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Roadmap",
+  title: "Roadmap — MERYT",
   description: "What MERYT is building next — upcoming features and platform milestones.",
 };
 
