@@ -3,6 +3,13 @@
 import { useState } from "react";
 import Link from "next/link";
 import { LEADERBOARD_DATA } from "@/src/lib/data";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Admin",
+  description: "MERYT admin panel — verification queue, user management, and score analytics.",
+  robots: { index: false, follow: false },
+};
 
 const TABS = ["overview", "users", "verifications", "scores", "reports"];
 
