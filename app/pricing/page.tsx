@@ -2,13 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Pricing",
-  description: "Explorer free plan, Pro at $19/mo, Elite at $49/mo. Get your verified NI Score and global talent ranking.",
-};
-
 const PLANS = [
   {
     id: "free",
