@@ -16,6 +16,8 @@ const LINKS = [
     items: [
       { label: "About", href: "/about" },
       { label: "Blog", href: "/blog" },
+      { label: "Newsletter", href: "/newsletter" },
+      { label: "Press", href: "/press" },
       { label: "Roadmap", href: "/roadmap" },
       { label: "Changelog", href: "/changelog" },
       { label: "API Docs", href: "/api-docs" },
