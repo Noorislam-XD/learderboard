@@ -4,13 +4,6 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { LEADERBOARD_DATA } from "@/src/lib/data";
 import { Category } from "@/src/types";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Search",
-  description: "Search and discover verified talent across 142 countries. Filter by category, country, and score.",
-};
-
 const CATEGORIES: { id: Category | "all"; label: string; icon: string }[] = [
   { id: "all", label: "All", icon: "🌐" },
   { id: "research", label: "Research", icon: "🔬" },
