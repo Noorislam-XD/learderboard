@@ -24,6 +24,8 @@ const LINKS = [
   {
     heading: "Community",
     items: [
+      { label: "Rankings", href: "/rankings" },
+      { label: "Compare", href: "/compare" },
       { label: "Partners", href: "/partners" },
       { label: "Careers", href: "/careers" },
       { label: "Status", href: "/status" },
