@@ -32,6 +32,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/open`, lastModified: now, changeFrequency: "monthly", priority: 0.65 },
     { url: `${base}/score`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/discover`, lastModified: now, changeFrequency: "daily", priority: 0.75 },
+    { url: `${base}/trending`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
+    { url: `${base}/faq`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/changelog`, lastModified: now, changeFrequency: "weekly", priority: 0.6 },
     { url: `${base}/api-docs`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     ...(["iit-bombay","mit","oxford","eth-zurich","caltech","cambridge","tsinghua","tokyo"].map(s => ({
