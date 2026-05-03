@@ -4,13 +4,6 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { LEADERBOARD_DATA } from "@/src/lib/data";
 import { getRankTier } from "@/src/components/scoring/NIScoreEngine";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Dashboard",
-  description: "Your personal MERYT dashboard — rank history, NI Score progress, and activity feed.",
-};
-
 export default function DashboardPage() {
   const [user, setUser] = useState<{ name: string; handle: string; niScore: number; rank: number; avatar: string; country: string; flag: string } | null>(null);
 
