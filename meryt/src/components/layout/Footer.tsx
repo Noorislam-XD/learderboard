@@ -6,6 +6,7 @@ const LINKS = [
     items: [
       { label: "Leaderboard", href: "/leaderboard" },
       { label: "Rankings", href: "/rankings" },
+      { label: "Trending", href: "/trending" },
       { label: "Discover", href: "/discover" },
       { label: "Search", href: "/search" },
       { label: "Hall of Fame", href: "/hall-of-fame" },
@@ -20,6 +21,7 @@ const LINKS = [
     items: [
       { label: "About", href: "/about" },
       { label: "Blog", href: "/blog" },
+      { label: "FAQ", href: "/faq" },
       { label: "Newsletter", href: "/newsletter" },
       { label: "Press", href: "/press" },
       { label: "Roadmap", href: "/roadmap" },
