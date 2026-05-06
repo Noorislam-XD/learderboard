@@ -1,0 +1,21 @@
+name: AI Contribution Quality Filter
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  pull-requests: write
+  issues: write
+  contents: write
+
+jobs:
+  quality-filter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Noorislam-XD/AI-Contribution-Quality-Filter@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          min-quality-score: 50
+          trust-bots: true
+          track-history: true
